@@ -31,7 +31,7 @@ class SongTable extends Component {
                 Header: "Song",
                 accessor: "song",
                 filterMethod: (filter, rows) =>
-                matchSorter(rows, filter.value, { keys: ["title"] }),
+                matchSorter(rows, filter.value, { keys: ["song"] }),
                 filterAll: true
               }
             ]
